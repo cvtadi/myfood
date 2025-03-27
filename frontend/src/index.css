@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap");
 
 /* Import common styles */
-@import "./components/auth/common.css";
+@import "../src/Authentication/CssStyle/common.css";
 
 * {
   margin: 0;

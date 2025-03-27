@@ -1,7 +1,5 @@
-"use client";
-
 import React, { useState } from "react";
-import "./CheckEmail.css";
+import "../CssStyle/CheckEmail.css";
 
 export default function CheckEmail({ email, onConfirmCodeClick }) {
   const [otp, setOtp] = useState("");
