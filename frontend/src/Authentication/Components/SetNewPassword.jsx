@@ -1,13 +1,10 @@
-"use client";
-
 import React, { useState } from "react";
 import {
   LockClosedIcon,
   EyeIcon,
   EyeSlashIcon,
 } from "@heroicons/react/24/outline";
-import "./SetNewPassword.css";
-
+import "../CssStyle/SetNewPassword.css";
 export default function SetNewPassword({ onConfirmClick }) {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
